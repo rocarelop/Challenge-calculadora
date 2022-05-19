@@ -1,0 +1,102 @@
+body{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4466CE;
+}
+
+.calculadora{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color: rgb(68,104,216);
+    background: linear-gradient(-90deg, rgba(68,104,216,1) 0%, rgba(68,102,205,1) 100%);
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+    flex-direction: column;
+    border-radius: 15px;
+    background: #4466CE;
+    box-shadow:  6px 6px 12px #3956ad,
+             -6px -6px 12px #4f76ef;
+
+    
+}
+
+.calculadora td button{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+}
+
+#reset{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    color: #000000;
+    border-radius: 15px;
+    border: rgb(219, 219, 219);
+    border-radius: 15px;
+    background: #FDD25F;
+    box-shadow:  7px 7px 14px #3956ac,
+                 -7px -7px 14px #4f76ee;
+    font-family:monospace;
+}
+
+#reset:hover {background-color: #e9be49}
+
+#reset:active {
+    border-radius: 15px;
+background: #FDD25F;
+box-shadow: inset 6px 6px 12px #d5b050,
+            inset -6px -6px 12px #fff46e;
+}
+
+button{
+    display: block;
+    justify-content:center;
+    align-items: center;
+    color: #F3FFFF;
+    border-radius: 15px;
+    border: rgb(219, 219, 219);
+    border-radius: 15px;
+    background: #4466cd;
+    box-shadow:  7px 7px 14px #3956ac,
+                 -7px -7px 14px #4f76ee;
+    font-family:monospace;
+}
+
+button:hover {background-color: #4e70d4}
+
+button:active {
+    border-radius: 15px;
+    background: #4466cd;
+    box-shadow: inset 6px 6px 12px #3956ac,
+                inset -6px -6px 12px #4f76ee;
+}
+
+
+
+#resultado{
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    max-width: 250px;
+    font-size: 40px;
+    margin-bottom: 50px;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    background-color: #D0E5DC;
+    border-radius: 10px;
+    border-radius: 15px;
+    box-shadow: inset 6px 6px 12px #afc0b9,
+            inset -6px -6px 12px #f1ffff;
+    font-family: 'Courier New', Courier, monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
